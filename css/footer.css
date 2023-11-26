@@ -1,0 +1,53 @@
+.footer {
+    background-color: rgb(85, 81, 81);
+    width: 100%;
+    color: rgb(243, 233, 221);
+    text-decoration: none;
+    font-size: large;
+    /* left: 2cm; */
+    position: relative;
+    top: 2cm;
+  
+}
+.footerrow {
+    text-align: center;
+}
+.footerrow1 {
+    text-align: center;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer a{
+    left: 2cm;
+    text-decoration: none;
+    color: rgb(243, 233, 221);
+    font-size: large;
+   
+  
+}
+.footera {
+    position: relative;
+    top: 2cm;
+    background-color: rgb(85, 81, 81);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top: rgb(243, 233, 221);
+}
+.footera a{
+    
+    text-decoration: none;
+    color: burlywood;
+}
+.tp{
+    position: relative;
+    top: 2cm;
+    background-color: rgb(85, 81, 81);
+    text-align: left;
+}
+.tp a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}

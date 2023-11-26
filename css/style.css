@@ -1,0 +1,299 @@
+style.css
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(1.75);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(bgpic3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 5cm;
+    height: 5cm;
+    position: absolute;
+  top: 0.2cm;
+  left: 0.2cm;
+  /* font-size: 18px; */
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+  top: 0.2cm;
+  left: 16cm;
+  font-size: 18px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:whitesmoke;
+}
+.content h1{
+font-size: 100px;
+margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-size: 22px;
+    font-style: italic;
+    position: relative;
+    /* top: 55%;
+    left: 29%; */
+    line-height: 25px;
+}
+
+.abutton {
+    margin: 70px auto 0;
+}
+
+.abutton a {
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: whitesmoke;
+    border: 2px solid #009688;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.abutton a span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+   z-index: -1;
+   transition: 0.5s;
+
+}
+
+.abutton a:hover span{
+    width: 100%;
+}
+
+.abutton a:hover{
+    border: none;
+}
+
+.footer {
+    background-color: rgb(85, 81, 81);
+    width: 100%;
+    color: rgb(243, 233, 221);
+    text-decoration: none;
+    font-size: large;
+    /* left: 2cm; */
+    position: relative;
+    top: 2cm;
+  
+}
+.footerrow {
+    text-align: center;
+}
+.footerrow1 {
+    text-align: center;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer a{
+    left: 2cm;
+    text-decoration: none;
+    color: rgb(243, 233, 221);
+    font-size: large;
+   
+  
+}
+.footera {
+    position: relative;
+    top: 2cm;
+    background-color: rgb(85, 81, 81);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top: rgb(243, 233, 221);
+}
+.footera a{
+    
+    text-decoration: none;
+    color: burlywood;
+}
+.tp{
+    position: relative;
+    top: 2cm;
+    background-color: rgb(85, 81, 81);
+    text-align: left;
+}
+.tp a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+div.keyf{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    float: left;
+}
+div.clear:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+div.k{
+    text-align: center;
+    color: #0b7a6f;
+    background-image: url(texture.jpg);
+}
+.key {
+    padding: 0 6px;
+    float: left;
+    width: 9cm;
+  }
+  
+  @media only screen and (max-width: 100%) {
+    .key {
+      /* width: 49.99999%; */
+      width: 100%;
+      /* margin: 6px 0; */
+      margin: 0 0;
+    }
+  }
+  
+  @media only screen and (max-width: 100%) {
+    .key {
+      width: 100%;
+    }
+  }
+  
+  .clear:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .keyd{
+    font-size: large;
+  }
+
+  .one{
+    position: relative;
+    /* top: 5cm; */
+    background-image: url(about.jpg);
+    width: 100%;
+    height: 8cm;
+}
+.one h1{
+    text-align: center;
+    position: relative;
+    top: 3cm;
+    color: black;
+}
+.one h2{
+    text-align: center;
+    position: relative;
+    top: 3cm;
+    color: black;
+}
+
+div.ab{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    float: left;
+}
+div.clear:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+.a {
+    position: relative;
+    top: 1cm;
+    padding: 0 6px;
+    float: left;
+    width: 18cm;
+  }
+  
+  @media only screen and (max-width: 100%) {
+    .a {
+      /* width: 49.99999%; */
+      width: 100%;
+      /* margin: 6px 0; */
+      margin: 0 0;
+    }
+  }
+  
+  @media only screen and (max-width: 100%) {
+    .a {
+      width: 100%;
+    }
+  }
+  
+  .clear:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .abo{
+    font-size: large;
+  }
+  .abou{
+    font-size: x-large;
+  }
+  body{
+    background-color: whitesmoke;
+  }

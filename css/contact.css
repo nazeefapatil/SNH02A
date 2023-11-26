@@ -1,0 +1,104 @@
+.first{
+    position: relative;
+    /* top: 5cm; */
+    background-image: url(texture1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 8cm;
+}
+.first h1{
+    text-align: center;
+    position: relative;
+    top: 3cm;
+    color: black;
+}
+.first h2{
+    text-align: center;
+    position: relative;
+    top: 3cm;
+    color: black;
+}
+.c{
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+form{
+    width: 50%;
+    position: absolute;
+  top: 100%;
+  left: 25%;
+}
+form input{
+    width: 100%;
+    height: 1cm;
+}
+form button{
+    color: whitesmoke;
+    background-color: rgb(10, 103, 137);
+}
+
+.footer {
+    background-color: rgb(85, 81, 81);
+    width: 100%;
+    color: rgb(243, 233, 221);
+    text-decoration: none;
+    font-size: large;
+    position: relative;
+    top: 19cm;
+  
+}
+.footerrow {
+    text-align: center;
+}
+.footerrow1 {
+    text-align: center;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer a{
+    left: 2cm;
+    text-decoration: none;
+    color: rgb(243, 233, 221);
+    font-size: large;
+   
+  
+}
+.footera {
+    position: relative;
+    top: 19cm;
+    background-color: rgb(85, 81, 81);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top: rgb(243, 233, 221);
+}
+.footera a{
+    
+    text-decoration: none;
+    color: burlywood;
+}
+.tp{
+    position: relative;
+    top: 19cm;
+    background-color: rgb(85, 81, 81);
+    text-align: left;
+}
+.tp a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+body{
+    background-color: whitesmoke;
+}
+body img{
+    position: absolute;
+    width: 5cm;
+    height: 5cm;
+}

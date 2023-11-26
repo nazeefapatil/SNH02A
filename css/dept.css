@@ -1,0 +1,112 @@
+.one{
+    position: relative;
+    /* top: 5cm; */
+    background-image: url(depts.jpg);
+    width: 100%;
+    height: 8cm;
+}
+.one h1{
+    text-align: center;
+    position: relative;
+    top: 3cm;
+    color: black;
+}
+.one h2{
+    text-align: center;
+    position: relative;
+    top: 3cm;
+    color: black;
+}
+table.dep{
+    text-align: center;
+}
+.m{
+    font-size: x-large;
+}
+table{
+    font-size: large;
+    border-style: dashed;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
+  
+  @media only screen and (max-width: 100%) {
+    .a {
+      /* width: 49.99999%; */
+      width: 100%;
+      /* margin: 6px 0; */
+      margin: 0 0;
+    }
+  }
+  
+  @media only screen and (max-width: 100%) {
+    .a {
+      width: 100%;
+    }
+  }
+  
+  .clear:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  body{
+    background-color: whitesmoke;
+  }
+
+  .footer {
+    background-color: rgb(85, 81, 81);
+    width: 100%;
+    color: rgb(243, 233, 221);
+    text-decoration: none;
+    font-size: large;
+    position: relative;
+    top: 4cm;
+  
+}
+.footerrow {
+    text-align: center;
+}
+.footerrow1 {
+    text-align: center;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer a{
+    left: 2cm;
+    text-decoration: none;
+    color: rgb(243, 233, 221);
+    font-size: large;
+   
+  
+}
+.footera {
+    position: relative;
+    top: 4cm;
+    background-color: rgb(85, 81, 81);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top: rgb(243, 233, 221);
+}
+.footera a{
+    
+    text-decoration: none;
+    color: burlywood;
+}
+.tp{
+    position: relative;
+    top: 4cm;
+    background-color: rgb(85, 81, 81);
+    text-align: left;
+}
+.tp a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,43 @@
+body{
+    /* background-image: url();
+    background-size: cover; */
+    background-color: rgb(220, 235, 248);
+}
+body img{
+    width: 5cm;
+    height: 5cm;
+    position: relative;
+    left: 0cm;
+}
+.hospital{
+        width: 90%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 3px solid navy;
+    width: 90%;
+    margin: auto;
+}
+.hos{
+    text-align: center;
+    font-size: large;  
+}
+.hos a{
+    text-decoration: none;
+    color: navy;
+}
+.table1{
+    width: 100%;
+    border-bottom: 3px solid navy;
+    width: 90%;
+    margin: auto;
+}
+.table2{
+    width: 100%;
+}
+hr{
+    border: 0.2cm solid navy;
+}
+

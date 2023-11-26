@@ -1,0 +1,43 @@
+body{
+    background-image: url(india.jpg);
+    background-size: cover;
+    background-color: whitesmoke;
+}
+body img{
+    width: 12cm;
+    height: 7cm;
+    position: relative;
+    left: 0cm;
+}
+.scheme{
+        width: 90%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 3px solid navy;
+    width: 90%;
+    margin: auto;
+}
+.tags{
+    text-align: center;
+    font-size: large;  
+}
+.tags a{
+    text-decoration: none;
+    color: navy;
+}
+.table1{
+    width: 100%;
+    border-bottom: 3px solid navy;
+    width: 90%;
+    margin: auto;
+}
+.table2{
+    width: 100%;
+}
+hr{
+    border: 0.2cm solid navy;
+}
+

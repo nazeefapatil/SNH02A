@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: antiquewhite;
+    color: rgb(29, 132, 136);
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: whitesmoke;
+    padding: 0.5em;
+}
+
+main {
+    padding: 1em;
+}
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Add more styling as needed */
+.footer {
+    background-color: rgb(85, 81, 81);
+    width: 100%;
+    color: rgb(243, 233, 221);
+    text-decoration: none;
+    font-size: large;
+    position: relative;
+    top: 10cm;
+  
+}
+.footerrow {
+    text-align: center;
+}
+.footerrow1 {
+    text-align: center;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer a{
+    left: 2cm;
+    text-decoration: none;
+    color: rgb(243, 233, 221);
+    font-size: large;
+   
+  
+}
+.footera {
+    position: relative;
+    top: 10cm;
+    background-color: rgb(85, 81, 81);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-top: rgb(243, 233, 221);
+}
+.footera a{
+    
+    text-decoration: none;
+    color: burlywood;
+}
+.tp{
+    position: relative;
+    top: 10cm;
+    background-color: rgb(85, 81, 81);
+    text-align: left;
+}
+.tp a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+#sidenav{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;  
+    background : rgb(29, 132, 136);
+    z-index: 2;
+    transition: 0.5s;
+}
+nav{
+    background-color: rgb(29, 132, 136);
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(29, 132, 136);
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
