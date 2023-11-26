@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="patafter.css">
+    <title>I am a Patient</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to MediShield</h1>
+    </header>
+    <nav>
+        <!-- Navigation links can be added here -->
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="main.html"><strong>Home</strong></a></li>
+                    <li><a href="schemes.html"><strong>Schemes</strong></a></li>
+                    <li><a href="dept.html"><strong>Departments</strong></a></li>
+                    <li><a href="#"><strong>Find Doctors</strong></a></li>
+                    <li><a href="#"><strong>Health Records</strong></a></li>
+                    <li><a href="contact.html"><strong>Help</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="menu_small.png" id="menu">
+        </div>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sidenav = document.getElementById("sidenav")
+            var menu = document.getElementById("menu")
+            sidenav.style.right = "-250px";  
+            menuBtn.onclick = function(){
+                if(sidenav.style.right == "-250px"){
+                    sidenav.style.right = "0";
+                    menu.src = "close.png";
+                }else{
+                    sidenav.style.right = "-250px";
+                    menu.src = "menu_small.png";
+                }
+            }
+        </script>
+    </nav>
+    <main>
+        <section id="patientInfo">
+            <!-- Display patient information here -->
+            
+        </section>
+        <section id="appointments">
+            <!-- Display upcoming appointments here -->
+        </section>
+        <!-- Add more sections for medical history, test results, etc. -->
+    </main>
+    
+    <footer>
+        <table class="footer">
+            <div>
+                <tr class="footerrow">
+                    <td><h2><strong>Contact Us</strong></h2></td>
+                <td><h2><strong>MediShield</strong></h2></td>
+                <td><h2><strong>Products</strong></h2></td>
+                <td><h2><strong>Media</strong></h2></td>
+                
+                </tr>
+                <tr class="footerrow1">
+                    <td>
+                <ul>
+                    <li><a href="#">Sales: +91 9876543210</a></li>
+                    <li><a href="#">info@medishield.in</a></li>
+                    <li><a href="#">contact@medishield.in</a></li>
+                    <li><a href="#">support@medishield.in</a></li>
+                    <br>
+                    <br>
+                </ul>
+                </td>
+                <td>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <br>
+                    <br>
+                </ul></td>
+                <td>
+                    <ul>
+                        <li><a href="#">Hospital Management</a></li>
+                        <li><a href="#">Pharmacy Management</a></li>
+                        <li><a href="#">Blood Bank Management</a></li>
+                        <li><a href="#">Laboratory Management</a></li>
+                        <li><a href="#">Scan Center Management</a></li>
+                        <br>
+                    <br>
+                    </ul></td>
+                    <td>
+                        <ul>
+                            <li><a href="#">ABC</a></li>
+                            <li><a href="#">DEF</a></li>
+                            <li><a href="#">GEH</a></li>
+                            <li><a href="#">IJK</a></li>
+                            <br>
+                    <br>
+                        </ul></td>
+            </tr>
+            </div>
+            </table>
+            <div class="footera">
+                Copyright © 2023<a href="main.html"> MediShield  </a>  - All Rights Reserved. 
+            </div>
+            <div class="tp">
+                <a href="term.html"><strong>Terms Of Use</strong></a>
+                &nbsp;
+                <a href="privacy.html"><strong>Privacy Policy</strong></a>
+            </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

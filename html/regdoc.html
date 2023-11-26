@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Doctor Sign-up</title>
+      <link rel="stylesheet" href="regdoc.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <script>  
+    function matchPassword() {  
+      var pw1 = document.getElementById("pswd1");  
+      var pw2 = document.getElementById("pswd2");  
+      if(pw1 != pw2)  
+      {   
+        alert("Passwords did not match");  
+      } else {  
+        alert("Password created successfully");  
+      }  
+    }  
+    </script>  
+   <body>
+      <div class="container">
+         <header>SIGNUP FORM</header>
+         <div class="progress-bar">
+            <div class="step">
+               <p>
+                  Name
+               </p>
+               <div class="bullet">
+                  <span>1</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>
+                  Contact
+               </p>
+               <div class="bullet">
+                  <span>2</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>
+                  Birth
+               </p>
+               <div class="bullet">
+                  <span>3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <!-- <div class="step">
+               <p>
+                  Education
+               </p>
+               <div class="bullet">
+                  <span>3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div> -->
+            <div class="step">
+               <p>
+                  Submit
+               </p>
+               <div class="bullet">
+                  <span>4</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+         </div>
+         <div class="form-outer">
+            <form action="regdoc.php" method="post">
+               <div class="page slide-page">
+                  <div class="title">
+                     Basic Info:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Name
+                     </div>
+                     <input type="text" name="dname">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Registration Number
+                     </div>
+                     <input type="number" name="dregno">
+                  </div>
+                  <div class="field">
+                     <button class="firstNext next">Next</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="title">
+                     Contact Info:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Email Address
+                     </div>
+                     <input type="email" name="demail">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Phone Number
+                     </div>
+                     <input type="Number" name="dphone">
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-1 prev">Previous</button>
+                     <button class="next-1 next">Next</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="title">
+                     Date of Birth:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        DOB
+                     </div>
+                     <input type="text" name="ddob">
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Profile Photo
+                     </div>
+                     <input type="file" name="dpic">
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-2 prev">Previous</button>
+                     <button class="next-2 next">Next</button>
+                  </div>
+               </div>
+               <!-- <div class="page">
+                  <div class="title">
+                     Education:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Doctor Certificate
+                     </div>
+                     <input type="file" id="file" required>
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                       Enter your board
+                     </div>
+                     <input type="text" id="board" required>
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-3 prev">Previous</button>
+                     <button type = "submit" onclick="matchPassword()">Submit</button> 
+
+                  </div>
+               </div> -->
+               <div class="page">
+                  <div class="title">
+                     Password:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Choose a Password
+                     </div>
+                     <input type="password" id="dpassword" required>
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                       Confirm Password
+                     </div>
+                     <input type="password" id="dpassword1" required>
+                  </div>
+                  <div class="field btns">
+                     <button class="prev-3 prev">Previous</button>
+                     <button type = "submit" onclick="matchPassword()">Submit</button> 
+
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <script src="regdoc.js"></script>
+   </body>
+</html>
